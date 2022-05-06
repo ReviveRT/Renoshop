@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@400;500;800&display=swap");
+.featuredProductsContainer {
+  width: 100%;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+.featuredProductsContainer .container {
+  max-width: 1920px;
+  min-width: 300px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+.featuredProductsContainer .container .productsTitles {
+  width: 350px;
+  height: 180px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px 0;
+}
+.featuredProductsContainer .container .productsTitles h2 {
+  font-size: 30px;
+  font-family: "Poppins";
+  font-weight: 800;
+  color: black;
+}
+.featuredProductsContainer .container .productsTitles p {
+  color: rgb(60, 184, 120);
+  font-family: "Poppins";
+}
+.featuredProductsContainer .container .cartsContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=featuredProducts.module.css.map */

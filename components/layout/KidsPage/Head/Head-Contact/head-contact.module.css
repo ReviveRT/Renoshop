@@ -1,0 +1,56 @@
+.headContacts {
+  height: 60px;
+  width: 100%;
+  background-color: black;
+}
+.headContacts .headContactsContainer {
+  min-width: 200px;
+  max-width: 1920px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 70px;
+  flex-shrink: 1;
+  font-family: "Poppins";
+}
+.headContacts .headContactsContainer .contacts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  height: 60px;
+  font-size: 14px;
+}
+.headContacts .headContactsContainer .contacts .phone {
+  color: #eee;
+}
+.headContacts .headContactsContainer .contacts .phone .iconPhone {
+  margin-right: 20px;
+  font-size: 16px;
+}
+.headContacts .headContactsContainer .contacts .mail {
+  color: #eee;
+}
+.headContacts .headContactsContainer .contacts .mail .iconMail {
+  margin-right: 20px;
+}
+.headContacts .headContactsContainer .contacts .border {
+  color: white;
+  opacity: 50%;
+}
+.headContacts .headContactsContainer .socialMedia {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 180px;
+  height: 60px;
+}
+.headContacts .headContactsContainer .socialMedia .icon {
+  cursor: pointer;
+  color: #eee;
+}
+.headContacts .headContactsContainer .socialMedia .icon:hover {
+  color: rgb(60, 184, 120);
+}/*# sourceMappingURL=head-contact.module.css.map */

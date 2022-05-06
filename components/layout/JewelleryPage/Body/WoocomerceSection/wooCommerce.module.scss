@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@400;500;800&display=swap');
+$greenTxt: rgba(60,184,120);
+
+
+.mainContainer{
+    width: 100%;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.993);
+    
+    .container{
+        
+        max-width: 1920px;
+        min-width: 200px;
+        height: 800px;
+        margin: 0 auto;
+        background-position: initial;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(http://babajewellery.co.in/wp-content/uploads/2016/11/fashion-jewellery-in-india.jpg);
+        display: flex;
+        align-items: center;
+      
+        
+        .titleAndBtn{
+            width: 555px;
+            height: auto;
+            margin-left: 375px;
+
+            .mainTitle{
+                font-family: 'Poppins';
+                color: /* rgb(33, 30, 201) */ rgb(218, 205, 35);
+                font-size: 60px;
+                line-height: 70px;
+                font-weight: 800;
+                letter-spacing: 3px;
+                text-shadow: 0 0 3px black;
+
+                .greenTxt{
+                    color: $greenTxt;
+                    text-shadow: 0 0 3px black;
+                }
+            }
+
+            .subtitle{
+                font-size: 16px;
+                font-family: 'Poppins';
+                font-weight: 500;
+                color:#eee;
+                
+            }
+
+            .buyNow{
+                background-color: transparent;
+                padding: 15px 50px;
+                border: 2px solid #eee;
+                font-family: 'Poppins';
+                color: #eee;
+                font-weight: bold;
+                font-size: 15px;
+                margin-top: 30px;
+                font-weight: 400;
+                cursor: pointer;
+                transition: .2s;
+                &:hover{
+                    color: rgb(218, 205, 35);
+                    border: 2px solid /* rgb(221, 60, 173) */ rgb(218, 205, 35);
+                    background-color: transparent;
+                    
+                }
+            }
+        }
+    }
+}

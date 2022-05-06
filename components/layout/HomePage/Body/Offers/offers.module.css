@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@400;500;800&display=swap");
+.offersContainer {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(245, 246, 249);
+}
+.offersContainer .offersBox {
+  max-width: 1920px;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.offersContainer .offersBox h3 {
+  color: black;
+  font-size: 18px;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.offersContainer .offersBox p {
+  font-family: "Poppins";
+  font-size: 13px;
+  opacity: 50%;
+}
+.offersContainer .offersBox .specialOffers {
+  width: 300px;
+  height: 200px;
+  padding-top: 50px;
+  text-align: center;
+}
+.offersContainer .offersBox .specialOffers .imgOne {
+  width: 50px;
+  height: 50px;
+  background-image: url("../../../../../assets/img/OffersImgs/diamond.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 80%;
+  justify-self: center;
+  margin: 0 auto;
+}
+.offersContainer .offersBox .freeDelivery {
+  width: 300px;
+  height: 200px;
+  padding-top: 50px;
+  text-align: center;
+}
+.offersContainer .offersBox .freeDelivery .imgTwo {
+  width: 50px;
+  height: 50px;
+  background-image: url("../../../../../assets/img/OffersImgs/plane.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 80%;
+  justify-self: center;
+  margin: 0 auto;
+}
+.offersContainer .offersBox .daysReturn {
+  width: 300px;
+  height: 200px;
+  padding-top: 50px;
+  text-align: center;
+}
+.offersContainer .offersBox .daysReturn .imgThree {
+  width: 50px;
+  height: 50px;
+  background-image: url("../../../../../assets/img/OffersImgs/share.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 80%;
+  justify-self: center;
+  margin: 0 auto;
+}
+.offersContainer .offersBox .fastestShipping {
+  width: 300px;
+  height: 200px;
+  padding-top: 50px;
+  text-align: center;
+}
+.offersContainer .offersBox .fastestShipping .imgFour {
+  width: 50px;
+  height: 50px;
+  background-image: url("../../../../../assets/img/OffersImgs/rocket.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 80%;
+  justify-self: center;
+  margin: 0 auto;
+}/*# sourceMappingURL=offers.module.css.map */

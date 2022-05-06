@@ -1,0 +1,124 @@
+$greenTxt: rgba(60,184,120);
+
+.discountBlock{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(44,48,66);
+
+    .discountContainer{
+        max-width: 1920px;
+        min-width: 300;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+
+        .emailBlock{
+            width: 960px;
+            height: 300px;
+            /* background-color: rgba(44,48,66); */
+            text-align: center;
+            padding: 65px 0;
+            background-image: url('../../../../../assets/img/Sponsors/slide5.png');
+            background-position: center;
+            background-repeat: no-repeat;
+
+            h1{
+                font-family: 'Poppins';
+                font-weight: 400;
+                color: #eee;
+                font-size: 30px;
+            }
+            p{
+                font-family: 'Poppins';
+                font-weight: 400;
+                color: #eee;
+                font-size: 14px;
+                margin-bottom: 35px;
+                margin-top: 20px;
+            }
+
+            .emailInput{
+                width: 400px;
+                height: 50px;
+                padding-left: 20px;
+                margin-right: 10px;
+                border: none;
+                border-radius: 3px;
+               
+                
+                &:focus{
+                    outline: none;
+                    color: black;
+                    opacity: 100%;
+                    box-shadow: 0 0 2px 2px #eee;
+                    
+                }&::placeholder{
+                    color: black;
+                    opacity: 100%;
+                    font-family: 'Poppins';
+                    font-size: 14px;
+                }
+            }
+
+            .btn{
+                background-color: $greenTxt;
+                font-size: 14px;
+                font-family: 'Poppins';
+                padding: 14.5px 35px;
+                border: none;
+                cursor: pointer;
+                transition: .2s;
+                color: #eee;
+                border-radius: 3px;
+                &:hover{
+                    background-color: rgb(34, 110, 71);
+                    transition: .2s;
+                }
+            }
+
+
+        }
+        
+        .sponsorsBlock{
+            width: 960px;
+            height: 300px;
+            background-color: rgba(245,246,249);
+            display: flex;
+            align-items: center;
+        
+            .sponsorOne{
+                width: 240px;
+                height: 300px;
+                background-image: url('../../../../../assets/img/Sponsors/brand-logo-1a.png');
+                background-position: center;
+                background-repeat: no-repeat;
+               
+            }
+            .sponsorTwo{
+                width: 240px;
+                height: 300px;
+                background-image: url('../../../../../assets/img/Sponsors/brand-logo-2a.png');
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            .sponsorThree{
+                width: 240px;
+                height: 300px;
+                background-image: url('../../../../../assets/img/Sponsors/brand-logo-3a.png');
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            .sponsorFour{
+                width: 240px;
+                height: 300px;
+                background-image: url('../../../../../assets/img/Sponsors/brand-logo-4a.png');
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+        
+        }
+    }
+
+
+}

@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@400;500;800&family=Roboto&display=swap");
+.socialContainer {
+  width: 100%;
+  height: 60px;
+  background-color: #eee;
+}
+.socialContainer .container {
+  max-width: 1170px;
+  min-width: 300px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.socialContainer .container .title {
+  width: 550px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 600;
+}
+.socialContainer .container .socialMedia {
+  width: 300px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.socialContainer .container .socialMedia .icon {
+  cursor: pointer;
+  transition: 0.1s;
+}
+.socialContainer .container .socialMedia .icon:hover {
+  color: rgb(60, 184, 120);
+  transition: 0.1s;
+}/*# sourceMappingURL=footerSocial.module.css.map */

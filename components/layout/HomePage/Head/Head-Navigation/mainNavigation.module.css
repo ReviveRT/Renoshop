@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@400;500;800&display=swap");
+.nav {
+  width: 100%;
+  height: 100px;
+}
+.nav .navContainer {
+  min-width: 200px;
+  max-width: 1920px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 70px;
+}
+.nav .navContainer .navLogo .logoTitle {
+  color: black;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+.nav .navContainer .navLogo .logoTitle .greenText {
+  color: rgb(60, 184, 120);
+  font-weight: bold;
+  font-family: "Poppins";
+}
+.nav .navContainer .navigation {
+  max-width: 730px;
+  min-width: 700px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav .navContainer .navigation .home, .nav .navContainer .navigation .woman, .nav .navContainer .navigation .man, .nav .navContainer .navigation .kids, .nav .navContainer .navigation .jewellery, .nav .navContainer .navigation .accessories {
+  font-weight: 500;
+  transition: 0.1s;
+  color: black;
+}
+.nav .navContainer .navigation .home:hover, .nav .navContainer .navigation .woman:hover, .nav .navContainer .navigation .man:hover, .nav .navContainer .navigation .kids:hover, .nav .navContainer .navigation .jewellery:hover, .nav .navContainer .navigation .accessories:hover {
+  color: rgb(60, 184, 120);
+  transition: 0.1s;
+}
+.nav .navContainer .navigation .home {
+  color: rgb(60, 184, 120);
+}
+.nav .navContainer .navigation a {
+  text-decoration: none;
+  font-family: "Poppins";
+  color: black;
+}
+.nav .navContainer .navPanel {
+  min-width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav .navContainer .navPanel .cart {
+  cursor: pointer;
+}
+.nav .navContainer .navPanel .search {
+  cursor: pointer;
+}
+.nav .navContainer .navPanel .menu {
+  width: 17px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.nav .navContainer .navPanel .menu .menuContent {
+  width: 17px;
+  height: 3px;
+  background-color: black;
+  border-radius: 2px;
+}
+.nav .navContainer .navPanel .menu .menuContent::after, .nav .navContainer .navPanel .menu .menuContent::before {
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 3px;
+  background-color: black;
+  border-radius: 2px;
+}
+.nav .navContainer .navPanel .menu .menuContent::before {
+  transform: translateY(-6px);
+  transition: 0.3s;
+}
+.nav .navContainer .navPanel .menu .menuContent::after {
+  transform: translateY(6px);
+  transition: 0.3s;
+}
+.nav .navContainer .navPanel .menu .menuContentOpen {
+  width: 17px;
+  height: 3px;
+  background-color: transparent;
+  border-radius: 2px;
+}
+.nav .navContainer .navPanel .menu .menuContentOpen::after, .nav .navContainer .navPanel .menu .menuContentOpen::before {
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 3px;
+  background-color: black;
+  border-radius: 2px;
+}
+.nav .navContainer .navPanel .menu .menuContentOpen::before {
+  transform: rotate(45deg) translateY(0);
+  transition: 0.3s;
+}
+.nav .navContainer .navPanel .menu .menuContentOpen::after {
+  transform: rotate(-45deg) translateY(0);
+  transition: 0.3s;
+}
+.nav .navContainer .filterWindow {
+  display: none;
+}
+.nav .navContainer .filterWindowActive {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  display: block;
+  right: 50px;
+  top: 130px;
+  border-radius: 5px;
+  background-color: #eee;
+  z-index: 1000;
+  box-shadow: 0 0 30px 2px black;
+  transition: 0.2s;
+  -webkit-animation: fadeIn ease 1s;
+          animation: fadeIn ease 1s;
+}
+.nav .navContainer .filterWindowActive::after {
+  content: "";
+  background: #eee;
+  width: 18px;
+  height: 18px;
+  margin-left: 5px;
+  position: absolute;
+  rotate: 45deg;
+  top: 0;
+  right: 20px;
+}
+.nav .navContainer .filterWindowActive::after:hover {
+  background-color: rgb(60, 184, 120);
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+}
+.nav .navContainer .filterWindowActive .account, .nav .navContainer .filterWindowActive .filter {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 5px;
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins";
+  display: block;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.2s;
+}
+.nav .navContainer .filterWindowActive .account:hover, .nav .navContainer .filterWindowActive .filter:hover {
+  color: rgb(60, 184, 120);
+  transition: 0.1s;
+}/*# sourceMappingURL=mainNavigation.module.css.map */

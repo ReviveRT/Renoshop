@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@400;500;800&display=swap");
+.discountBlock {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(44, 48, 66);
+}
+.discountBlock .discountContainer {
+  max-width: 1920px;
+  min-width: 300;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.discountBlock .discountContainer .emailBlock {
+  width: 960px;
+  height: 300px;
+  /* background-color: rgba(44,48,66); */
+  text-align: center;
+  padding: 65px 0;
+  background-image: url("../../../../../assets/img/Sponsors/slide5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.discountBlock .discountContainer .emailBlock h1 {
+  font-family: "Poppins";
+  font-weight: 400;
+  color: #eee;
+  font-size: 30px;
+}
+.discountBlock .discountContainer .emailBlock p {
+  font-family: "Poppins";
+  font-weight: 400;
+  color: #eee;
+  font-size: 14px;
+  margin-bottom: 35px;
+  margin-top: 20px;
+}
+.discountBlock .discountContainer .emailBlock .emailInput {
+  width: 400px;
+  height: 50px;
+  padding-left: 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 3px;
+}
+.discountBlock .discountContainer .emailBlock .emailInput:focus {
+  outline: none;
+  color: black;
+  opacity: 100%;
+  box-shadow: 0 0 2px 2px #eee;
+}
+.discountBlock .discountContainer .emailBlock .emailInput::-moz-placeholder {
+  color: black;
+  opacity: 100%;
+  font-family: "Poppins";
+  font-size: 14px;
+}
+.discountBlock .discountContainer .emailBlock .emailInput:-ms-input-placeholder {
+  color: black;
+  opacity: 100%;
+  font-family: "Poppins";
+  font-size: 14px;
+}
+.discountBlock .discountContainer .emailBlock .emailInput::placeholder {
+  color: black;
+  opacity: 100%;
+  font-family: "Poppins";
+  font-size: 14px;
+}
+.discountBlock .discountContainer .emailBlock .btn {
+  background-color: rgb(60, 184, 120);
+  font-size: 14px;
+  font-family: "Poppins";
+  padding: 14.5px 35px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+  color: #eee;
+  border-radius: 3px;
+}
+.discountBlock .discountContainer .emailBlock .btn:hover {
+  background-color: rgb(34, 110, 71);
+  transition: 0.2s;
+}
+.discountBlock .discountContainer .sponsorsBlock {
+  width: 960px;
+  height: 300px;
+  background-color: rgb(245, 246, 249);
+  display: flex;
+  align-items: center;
+}
+.discountBlock .discountContainer .sponsorsBlock .sponsorOne {
+  width: 240px;
+  height: 300px;
+  background-image: url("../../../../../assets/img/Sponsors/brand-logo-1a.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.discountBlock .discountContainer .sponsorsBlock .sponsorTwo {
+  width: 240px;
+  height: 300px;
+  background-image: url("../../../../../assets/img/Sponsors/brand-logo-2a.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.discountBlock .discountContainer .sponsorsBlock .sponsorThree {
+  width: 240px;
+  height: 300px;
+  background-image: url("../../../../../assets/img/Sponsors/brand-logo-3a.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.discountBlock .discountContainer .sponsorsBlock .sponsorFour {
+  width: 240px;
+  height: 300px;
+  background-image: url("../../../../../assets/img/Sponsors/brand-logo-4a.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=discount.module.css.map */

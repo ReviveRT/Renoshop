@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@400;500;800&display=swap");
+.bestSellers {
+  width: 100%;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+}
+.bestSellers .bestSellersContainer {
+  max-width: 1920px;
+  min-width: 200px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.bestSellers .bestSellersContainer .bestSellersTitles {
+  width: 390px;
+  height: 715px;
+  padding: 270px 70px;
+}
+.bestSellers .bestSellersContainer .bestSellersTitles .sellerSubtitle {
+  color: rgb(60, 184, 120);
+}
+.bestSellers .bestSellersContainer .bestSellersItems {
+  width: 1530px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding: 100px 0;
+}/*# sourceMappingURL=bestSellers.module.css.map */

@@ -1,0 +1,120 @@
+$greenTxt: rgba(60,184,120);
+
+.footerContainer{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(255,255,255);
+    border-top: 1px solid grey;
+   
+    .container{
+        max-width: 1075px;
+        min-width: 300px;
+        height: 400px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        
+        .info{
+            width: auto;
+            height: 200px;
+            line-height: 50px;
+            margin-bottom: 80px;
+            font-family: 'Poppins';
+
+            h2{
+                font-size: 18px;
+                letter-spacing: 1px;
+            }
+            p{  
+                width: auto;
+                font-family: 'Roboto';
+                font-size: 14px;
+                cursor: pointer;
+                font-weight: 800;
+                &:hover{
+                    color: $greenTxt
+                }
+            }
+        }
+
+        .myAccount{
+            width: auto;
+            height: 200px;
+            line-height: 50px;
+            margin-bottom: 80px;
+            font-family: 'Poppins';
+
+            h2{
+                font-size: 18px;
+                letter-spacing: 1px;
+            }
+            p{  
+                width: auto;
+                font-family: 'Roboto';
+                font-size: 14px;
+                cursor: pointer;
+                font-weight: 800;
+                &:hover{
+                    color: $greenTxt
+                }
+            }
+
+        }
+
+        .help{
+            
+            height: 200px;
+            line-height: 50px;
+            margin-bottom: 80px;
+            font-family: 'Poppins';
+
+            h2{
+                font-size: 18px;
+                letter-spacing: 1px;
+            }
+            p{  
+                width: none;
+                font-family: 'Roboto';
+                font-size: 14px;
+                cursor: pointer;
+                font-weight: 800;
+                &:hover{
+                    color: $greenTxt
+                }
+            }
+
+        }
+
+        .contactInfo{
+            
+            height: 200px;
+            line-height: 50px;
+            margin-bottom: 80px;
+            font-family: 'Poppins';
+
+            h2{
+                font-size: 18px;
+                letter-spacing: 1px;
+            }
+            p{  
+                width: auto;
+                font-family: 'Roboto';
+                font-size: 14px;
+                font-weight: 800;
+                
+                &:nth-last-child(1){
+                    color: $greenTxt;
+                }
+            }
+
+            span{
+                margin-right: 10px;
+                color: black;
+            }
+
+        }
+    }
+
+}

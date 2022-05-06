@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@400;500;800&display=swap");
+.footerContainer {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  border-top: 1px solid grey;
+}
+.footerContainer .container {
+  max-width: 1075px;
+  min-width: 300px;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footerContainer .container .info {
+  width: auto;
+  height: 200px;
+  line-height: 50px;
+  margin-bottom: 80px;
+  font-family: "Poppins";
+}
+.footerContainer .container .info h2 {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.footerContainer .container .info p {
+  width: auto;
+  font-family: "Roboto";
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 800;
+}
+.footerContainer .container .info p:hover {
+  color: rgb(60, 184, 120);
+}
+.footerContainer .container .myAccount {
+  width: auto;
+  height: 200px;
+  line-height: 50px;
+  margin-bottom: 80px;
+  font-family: "Poppins";
+}
+.footerContainer .container .myAccount h2 {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.footerContainer .container .myAccount p {
+  width: auto;
+  font-family: "Roboto";
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 800;
+}
+.footerContainer .container .myAccount p:hover {
+  color: rgb(60, 184, 120);
+}
+.footerContainer .container .help {
+  height: 200px;
+  line-height: 50px;
+  margin-bottom: 80px;
+  font-family: "Poppins";
+}
+.footerContainer .container .help h2 {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.footerContainer .container .help p {
+  width: none;
+  font-family: "Roboto";
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 800;
+}
+.footerContainer .container .help p:hover {
+  color: rgb(60, 184, 120);
+}
+.footerContainer .container .contactInfo {
+  height: 200px;
+  line-height: 50px;
+  margin-bottom: 80px;
+  font-family: "Poppins";
+}
+.footerContainer .container .contactInfo h2 {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.footerContainer .container .contactInfo p {
+  width: auto;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 800;
+}
+.footerContainer .container .contactInfo p:nth-last-child(1) {
+  color: rgb(60, 184, 120);
+}
+.footerContainer .container .contactInfo span {
+  margin-right: 10px;
+  color: black;
+}/*# sourceMappingURL=homeFooter.module.css.map */

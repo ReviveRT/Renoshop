@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@400;500;800&display=swap');
+$greenTxt: rgba(60,184,120);
+
+
+.mainContainer{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(96, 214, 230);
+    
+    .container{
+        
+        max-width: 1920px;
+        min-width: 200px;
+        height: 800px;
+        margin: 0 auto;
+        background-position: initial;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(https://www.freewalldownload.com/happy-friendship-day/fantastic-friendship-day-kissing-friends-postures-moments-free-pics-download.jpg);
+        display: flex;
+        align-items: center;
+      
+        
+        .titleAndBtn{
+            width: 555px;
+            height: auto;
+            margin-left: 375px;
+
+            .mainTitle{
+                font-family: 'Poppins';
+                color: /* rgb(33, 30, 201) */ rgb(65, 65, 65);
+                font-size: 60px;
+                line-height: 70px;
+                font-weight: 800;
+                letter-spacing: 3px;
+                
+
+                .greenTxt{
+                    color: $greenTxt;
+                    text-shadow: 0 0 3px black;
+                }
+            }
+
+            .subtitle{
+                font-size: 16px;
+                font-family: 'Poppins';
+                font-weight: 500;
+                color:rgb(65, 65, 65);
+                
+            }
+
+            .buyNow{
+                background-color: transparent;
+                padding: 15px 50px;
+                border: 2px solid rgb(65, 65, 65);
+                font-family: 'Poppins';
+                color: rgb(65, 65, 65);
+                font-weight: bold;
+                font-size: 15px;
+                margin-top: 30px;
+                font-weight: 400;
+                cursor: pointer;
+                transition: .2s;
+                &:hover{
+                   
+                   background-color: rgb(65, 65, 65);
+                    color: #eee;
+                    border: 2px solid #eee;
+                    
+                }
+            }
+        }
+    }
+}
